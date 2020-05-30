@@ -5,7 +5,11 @@ class ChannelProvider{
         return form
     }
 
-}
+    joinChannel(form){
+        return form
+    }
+
+} 
 
 
 export default new ChannelProvider()

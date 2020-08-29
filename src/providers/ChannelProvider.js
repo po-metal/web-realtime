@@ -1,15 +1,23 @@
-class ChannelProvider{
+import apolloClient from './../apollo-client'
+
+class ChannelProvider {
 
 
-    createChannel(form){
-        return form
+    createChannel(form) {
+        return apolloClient.mutate({
+            mutation: require('./gql/createChannel.graphql'),
+            variables: form
+        })
     }
 
-    joinChannel(form){
-        return form
+    joinChannel(userName, code) {
+        return apolloClient.mutate({
+            mutation: require('./gql/joinChannel.graphql'),
+            variables: {userName, code}
+        })
     }
 
-} 
+}
 
 
 export default new ChannelProvider()

@@ -1,0 +1,8 @@
+mutation
+    joinChannel($userName:String!, $code:String!){
+    joinChannel(userName:$userName, code:$code){
+        id
+        name
+        code
+    }
+}

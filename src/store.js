@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 import createPersistedState from "vuex-persistedstate";
-import ChannelProvider from "./providers/ChannelProvider";
+//import ChannelProvider from "./providers/ChannelProvider";
 
 
 export default new Vuex.Store({

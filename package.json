@@ -17,7 +17,7 @@
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-router": "^3.3.2",
-    "vuetify": "^2.2.11",
+    "vuetify": "^2.6.10",
     "vuex-persistedstate": "^3.0.1",
     "@mdi/font": "^5.3.45",
     "apollo-boost": "^0.4.9",
